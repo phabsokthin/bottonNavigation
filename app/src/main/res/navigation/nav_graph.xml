@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:toots="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Home">
+
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.myapplication.Fragment.HomeFragment"
+        toots:layout="@layout/home_fragment"
+        android:label="HomeFragment"/>
+
+
+    <fragment
+        android:id="@+id/Shop"
+        android:name="com.example.myapplication.Fragment.ShopFragment"
+        toots:layout="@layout/shop_fragment"
+        android:label="ShopFragment"/>
+
+    <fragment
+        android:id="@+id/Message"
+        android:name="com.example.myapplication.Fragment.MessageFragment"
+        toots:layout="@layout/message_fragment"
+        android:label="MessageFragment"/>
+
+
+    <fragment
+        android:id="@+id/Setting"
+        android:name="com.example.myapplication.Fragment.SettingFragment"
+        toots:layout="@layout/setting_fragment"
+        android:label="SettingFragment"/>
+
+
+
+</navigation>
